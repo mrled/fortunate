@@ -26,8 +26,8 @@ This repo contains databases for use with the `fortune` command.
         $ strfile invisiblestate
         "invisiblestates.dat" created
         There were 50 strings
-        Longest string: 142 bytes
-        Shortest string: 104 bytes
+        Longest string: 210 bytes
+        Shortest string: 172 bytes
 
 3. Run `fortune` against your newly built database:
 
