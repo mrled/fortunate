@@ -23,15 +23,15 @@ This repo contains databases for use with the `fortune` command.
 
 2. Build one of the databases here. Fortune's `strfile` can assemble the text files in this repo into databases:
 
-        $ strfile invisiblestate
-        "invisiblestates.dat" created
+        $ strfile invisiblestates/invisiblestates
+        "invisiblestates/invisiblestates.dat" created
         There were 50 strings
         Longest string: 210 bytes
         Shortest string: 172 bytes
 
 3. Run `fortune` against your newly built database:
 
-        $ fortune ./invisiblestates
+        $ fortune ./invisiblestates/invisiblestates
         RUSH: Abandoned riverboats have been made into cathedrals by mermaids. There are giant toads here, whose legs are served with rose mustard.
         - THE INVISIBLE STATES OF AMERICA
           A TOURISM GUIDE BY UEL ARAMCHEK
@@ -39,7 +39,3 @@ This repo contains databases for use with the `fortune` command.
 ## What is this for?
 
 I think it is nice to put in your `.bashrc` or equivalent shell startup script.
-
-## Attribution
-
-- `invisiblestates`: Adapted from the incredible Twitter timeline from Uel Aramchek, <https://twitter.com/ThePatanoiac/timelines/574718176564371456>
