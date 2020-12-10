@@ -34,7 +34,7 @@ This repo contains databases for use with the `fortune` command.
         $ fortune ./invisiblestates
         RUSH: Abandoned riverboats have been made into cathedrals by mermaids. There are giant toads here, whose legs are served with rose mustard.
         - THE INVISIBLE STATES OF AMERICA
-        A TOURISM GUIDE BY UEL ARAMCHEK
+          A TOURISM GUIDE BY UEL ARAMCHEK
 
 ## What is this for?
 
