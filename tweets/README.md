@@ -7,11 +7,13 @@ There are some users whose tweets make excellent fortune databases. Some of my f
 3. [@TheDoorTHEDOOR](https://twitter.com/TheDoorTHEDOOR)
 4. [@invisiblefonts](https://twitter.com/invisiblefonts)
 
-Each of these accounts publishes lots of single-tweet speculative fiction. `tweetfortune.py` collects all tweets which have no pictures or videos, no URLs, are not replies or RTs, and are not part of a tweetstorm.
+Each of these accounts publishes lots of single-tweet speculative fiction.
+
+`tweetfortune.py` collects all tweets which have no pictures or videos, no URLs, are not replies or RTs, and are not part of a tweetstorm, and builds a fortune database out of them.
 
 ## Running `tweetfortune.py`
 
-You will need a Twitter "app" (see <http://developer.twitter.com>), which will provide four secrets - consumer key, consumer secret, access key, and access secret.
+You will need a Twitter "app" (see <http://developer.twitter.com>), which will provide two tokens - the consumer key and the consumer secret.
 
 Run it like so:
 
@@ -19,9 +21,7 @@ Run it like so:
 python3 tweetfortune.py --debug \
     TWITTER_USER \
     --consumer-key CONSUMER_KEY \
-    --consumer-secret CONSUMER_SECRET \
-    --access-key ACCESS_KEY \
-    --access-secret ACCESS_SECRET
+    --consumer-secret CONSUMER_SECRET
 ```
 
 It will then create `TWITTER_USER.DATE.tweets`. To use with `fortune`, make sure to run `strfile TWITTER_USER.DATE.tweets`. Then you can run `fortune TWITTER_USER.DATE.tweets`. Nice.

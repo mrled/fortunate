@@ -73,15 +73,12 @@ def get_all_tweets(
     screen_name: str,
     consumer_key: str,
     consumer_secret: str,
-    access_key: str,
-    access_secret: str,
 ):
     """Get all of a user's tweets, and write them to a fortune file
 
     Skip tweets that have media, are replies/RTs, contain URLs, are part of a tweetstorm, etc.
     """
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)
 
     alltweets = []
@@ -142,10 +139,6 @@ def main(*args, **kwargs):
     parser.add_argument(
         "--consumer-secret", required=True, help="Twitter API consumer secret"
     )
-    parser.add_argument("--access-key", required=True, help="Twitter API access key")
-    parser.add_argument(
-        "--access-secret", required=True, help="Twitter API access secret"
-    )
     parser.add_argument(
         "--file",
         help="The name of the fortune file to create; USERNAME.DATE.tweets by default",
@@ -165,8 +158,6 @@ def main(*args, **kwargs):
         parsed.username,
         parsed.consumer_key,
         parsed.consumer_secret,
-        parsed.access_key,
-        parsed.access_secret,
     )
 
 
