@@ -1,6 +1,11 @@
 # Creating fortune databases from tweets
 
-There are some users whose tweets make excellent fortune databases. Two of my favorites are [@ctrlcreep](https://twitter.com/ctrlcreep) and [@QuietPineTrees](https://twitter.com/QuietPineTrees)
+There are some users whose tweets make excellent fortune databases. Some of my favorites:
+
+1. [@ctrlcreep](https://twitter.com/ctrlcreep)
+2. [@QuietPineTrees](https://twitter.com/QuietPineTrees)
+3. [@TheDoorTHEDOOR](https://twitter.com/TheDoorTHEDOOR)
+4. [@invisiblefonts](https://twitter.com/invisiblefonts)
 
 Each of these accounts publishes lots of single-tweet speculative fiction. `tweetfortune.py` collects all tweets which have no pictures or videos, no URLs, are not replies or RTs, and are not part of a tweetstorm.
 
