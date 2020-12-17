@@ -17,6 +17,11 @@ Fortune favors the lucky.
 
 This repo contains databases for use with the `fortune` command.
 
+## What fortune databases are here?
+
+1. [THE INVISIBLE STATES OF AMERICA](invisiblestates), some of my favorite microfiction from [@ThePatanoiac](https://twitter.com/ThePatanoiac)
+2. [tweetfortune.py](tweets), a script to build fortune databases from a public Twitter timeline
+
 ## How do I use this?
 
 1. Install `fortune`. This can be done on macOS with Homebrew or pkgin, or on Linux, BSD, and most other Unix variants with the standard package manager.
@@ -39,3 +44,7 @@ This repo contains databases for use with the `fortune` command.
 ## What is this for?
 
 I think it is nice to put in your `.bashrc` or equivalent shell startup script.
+
+## Other cool fortune databases
+
+- [The top 10,000 /r/ShowerThoughts posts](https://nullprogram.com/blog/2016/12/01/)
