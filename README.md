@@ -36,8 +36,9 @@ This repo contains databases for use with the `fortune` command.
 
 3. Run `fortune` against your newly built database:
 
-        $ fortune ./invisiblestates/invisiblestates
-        RUSH: Abandoned riverboats have been made into cathedrals by mermaids. There are giant toads here, whose legs are served with rose mustard.
+        $ fortune invisiblestates/invisiblestates | fold -w 80 -s
+        RUSH: Abandoned riverboats have been made into cathedrals by mermaids. There
+        are giant toads here, whose legs are served with rose mustard.
         - THE INVISIBLE STATES OF AMERICA
           A TOURISM GUIDE BY UEL ARAMCHEK
 
