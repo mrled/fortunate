@@ -46,6 +46,15 @@ This repo contains databases for use with the `fortune` command.
 
 I think it is nice to put in your `.bashrc` or equivalent shell startup script.
 
+## What other great flavors go great with this one?
+
+- `fold -w 80 -s` will insert line breaks after a space at or before 80 characters. This command is actually [part of POSIX](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/fold.html#top) so should be on any Unix system.
+- [lolcatjs](https://github.com/robertmarsal/lolcatjs) makes pretty colors.
+
+Here's an example of those two in action:
+
+![screenshot](fortune-invisiblestates-fold-lolcatjs.png)
+
 ## Other cool fortune databases
 
 - [The top 10,000 /r/ShowerThoughts posts](https://nullprogram.com/blog/2016/12/01/)
