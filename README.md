@@ -17,6 +17,14 @@ Fortune favors the lucky.
 
 This repo contains databases for use with the `fortune` command.
 
+## Is there an online demo?
+
+Why yes, I did indeed
+[spend way too much time customizing a Linux emulator that runs inside your browser and lets you see the results](https://unfortunate.micahrl.com).
+It looks like this:
+
+![Screenshot of in-browser Linux emulator showing fortunes](unfortunate.screenshot.png)
+
 ## What fortune databases are here?
 
 1. [THE INVISIBLE STATES OF AMERICA](invisiblestates), some of my favorite microfiction from [@ThePatanoiac](https://twitter.com/ThePatanoiac)
