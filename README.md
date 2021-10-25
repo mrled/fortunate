@@ -17,54 +17,6 @@ Fortune favors the lucky.
 
 This repo contains databases for use with the `fortune` command.
 
-## Is there an online demo?
-
-Why yes, I did indeed
-[spend way too much time customizing a Linux emulator that runs inside your browser and lets you see the results](https://unfortunate.micahrl.com).
-In fact, I can even embed it right here.
-(It may take a few seconds to boot.)
-
-<script src="https://unfortunate.micahrl.com/build/v86_all.js"></script>
-<link rel="stylesheet" href="https://unfortunate.micahrl.com/v86.css">
-
-<script>
-"use strict";
-
-window.onload = function()
-{
-    var emulator = window.emulator = new V86Starter({
-        wasm_path: "https://unfortunate.micahrl.com/build/v86.wasm",
-        memory_size: 256 * 1024 * 1024,
-        vga_memory_size: 8 * 1024 * 1024,
-        screen_container: document.getElementById("screen_container"),
-        serial_container_xtermjs: document.getElementById("terminal"),
-        bios: {
-            url: "https://unfortunate.micahrl.com/bios/seabios.bin",
-        },
-        vga_bios: {
-            url: "https://unfortunate.micahrl.com/bios/vgabios.bin",
-        },
-        cdrom: {
-            url: "https://unfortunate.micahrl.com/unfortunate.iso",
-        },
-        autostart: true,
-        disable_speaker: true,
-        disable_keyboard: true,
-    });
-};
-</script>
-
-<div id="terminal"></div>
-<div id="video-console-section" style="display:none">
-    <h2>Video console</h2>
-    <p>You cannot type here, but use this to watch the boot process</p>
-    <div id="screen_container">
-    <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
-    <canvas style="display: none"></canvas>
-    </div>
-    <br style="clear: both">
-</div>
-
 ## What fortune databases are here?
 
 1. [THE INVISIBLE STATES OF AMERICA](invisiblestates), some of my favorite microfiction from [@ThePatanoiac](https://twitter.com/ThePatanoiac)
